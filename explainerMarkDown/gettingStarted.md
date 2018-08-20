@@ -1,11 +1,5 @@
 # Welcome to the GEViT Gallery
-* [Overview](#overview)
-* [Gallery Structure](#galStructure)
-    * [Filtering Visualizations](#filterVis)
-* [Visualization Context](#visContext)
-* [Visualization Design](#visDesign)
-* [Disclaimer](#disclaimer)
-* [Cite](#citation)
+* [Overview](#overview) | [Visualization Design](#visDesign) | [Visualization Context](#visContext) | [Structure and Filtering](#galStructure) | [Disclaimer](#disclaimer) | [Cite](#citation)
 
 <hr>
 <h2 id="overview">Overview</h2>
@@ -13,8 +7,27 @@
 This gallery for GEViT, a <b>G</b>enomic <b>E</b>pidemiology <b>Vi</b>sualization <b>T</b>ypology, provides a way to browse the research findings presented in Crisan *et. al.* (2018) ['A method for systematically surveying data visualizations in infectious disease genomic epidemiology'](https://www.biorxiv.org/content/early/2018/05/22/325290). We constructed a visualization design space that characterized common data visualization practices within infectious disease genomic epidemiology that supports exploration through two axes: visualization context (pathogens and a priori concepts) and visualization design (chart types, chart enhancements, and chart combinations).
 
 <hr>
+<h2 id="visDesign" style="margin-left: 0;">Visualization Design</h2>
 
-<h2 id="galStructure" style="margin-left: 0;">The GEViT Gallery Structure</h2>
+Visualization designs detail how a data visualization was constructed; they constitute chart types, chart combinations, and chart enhancements.
+
+<img src ="ChartTypes.png" width = "500px">
+*Chart types* are the basic building block of data visualizations. Our analysis of the infectious disease genomic epidemiology literature revealed 50 unique chart types that we further characterized into seven categories. 
+
+<p>
+<img src ="chartEnhance.png" width = "500px">
+*Chart enhancements* are changes to the base chart types to encode additional information. We differentiated between instances of adding new marks to the chart type and of re-encoding existing marks in order to encode additional information. In the figure above we **a)** summarize the types of chart enhancements documented in our research and show an example of enhancements to **b)** a phylogenetic tree and **c)** a node-link diagram.
+
+<p>
+<img src ="ChartCombo.png" width = "500px"> 
+*Chart combinations* can show different aspects of the data that are not directly captured in a single chart. In our research we found distinct patterns for how charts were combined to show additional information. There were five distinct types of chart combinations.
+
+<hr>
+<h2 id="visContext" style="margin-left: 0;">Visualization Context</h2>
+Visualization context is derived from pathogen information derived from article titles and abstracts, the application of a priori concepts, and the existence of text in the figure captions. There are a total of 32 pathogens, 23 a priori concepts, and hundreds of terms within the figure captions. Within the sidebar menu, you can **click on the text box and start typing** to explore different options. 
+
+<hr>
+<h2 id="galStructure" style="margin-left: 0;">Structure and Filtering</h2>
 
 **Catalogue:** 
 The catalogue contains figures and some "missed opportunity" tables that can be browsed or filtered by visualization context and design details. The library catalogue was current to August 2017. We are considering ways to automatically expand the GEViT gallery, so stay tuned for future updates!
@@ -25,31 +38,8 @@ When an figure is clicked, you will be automatically re-directed to the Figure t
 **Sidebar Menu:** 
 The sidebar menu primarily supports filtering functions for the gallery, which are listed below. In all filtering options it is possible to *click in the search box* and *start typing* in order to review the options. 
 
-
-<h3 id="filterVis" style="margin-left: 0;">Filtering visualizations</h3>
-You can casually browse the gallery catalogue or filter data visualizations to target different contexts (for example a hospital outbreak with specific pathogens). You can filter by visualization context, or you can filter by any of the chart types and chart combinations, and you have the option of limiting your search to chart types that have some form of enhancement. 
-
-<h2 id="visContext" style="margin-left: 0;">Visualization Context</h2>
-Visualization context is derived from pathogen information derived from article titles and abstracts, the application of a priori concepts, and the existence of text in the figure captions. More details are shown in the GEViT manuscript. There are a total of 32 pathogens, 23 a priori concepts, and hundreds of terms within the figure captions. Within the sidebar menu, you can **click on the text box and start typing** to explore different options. 
-
-
-<h2 id="visDesign" style="margin-left: 0;">Visualization Design</h2>
-Visualization designs detail how a data visualization was constructed; they constitute chart types, chart combinations, and chart enhancements.
-
-*Chart types* as the basic building block of data visualizations. Our analysis of the infectious disease genomic epidemiology literature revealed ## of unique chart types that we further characterized into seven categories. The chart types that are browsable in the GEViT Gallery are:
-
-
-<img src ="ChartTypes.png" width = "500px">
-
-
-*Chart enhancements* are changes to the base chart types to encode additional information. We differentiated between instances of adding new marks to the chart type and of re-encoding existing marks in order to encode additional information. In the figure below we **a)** summarize the types of chart enhancements documented in our research and show an example of enhancements to **b)** a phylogenetic tree and **c)** a node-link diagram.
-
-
-<img src ="ChartEnhance.png" width = "500px">
-
-*Chart combinations* can show different aspects of the data that are not directly captured in a single chart. In our research we found distinct patterns for how charts were combined to show additional information. There were five distinct types of chart combinations :
-
-<img src ="ChartCombo.png" width = "500px">
+**Filtering:**
+You can simply browse the gallery catalogue, or filter data visualizations to target different contexts (for example a hospital outbreak with specific pathogens). You can filter by visualization context, or you can filter by any of the chart types and chart combinations, and you have the option of limiting your search to chart types that have some form of enhancement. 
 
 <hr>
 <h2 id="disclaimer">Disclaimer</h2>
