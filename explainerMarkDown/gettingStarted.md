@@ -11,20 +11,57 @@ This gallery for GEViT, a <b>G</b>enomic <b>E</b>pidemiology <b>Vi</b>sualizatio
 
 Visualization designs detail how a data visualization was constructed; they constitute chart types, chart combinations, and chart enhancements.
 
-<img src ="ChartTypes.png" width = "500px">
-*Chart types* are the basic building block of data visualizations. Our analysis of the infectious disease genomic epidemiology literature revealed 50 unique chart types that we further characterized into seven categories. 
+<div class = "row">
+  <div class = "col-md-6">
+    <img src ="ChartTypes.png" width = "500px">
+  </div>
 
-<p>
+  <div class = "col-md-6">
+  <p><em><strong>Chart types</strong></em> are the basic building block of data visualizations. Our analysis of the infectious disease genomic epidemiology literature revealed 50 unique chart types that we further characterized into seven categories. </p>
+  </div>
+</div>
+
+<br><br>
+
+<div class="row">
+<div class = "col-md-6">
 <img src ="chartEnhance.png" width = "500px">
-*Chart enhancements* are changes to the base chart types to encode additional information. We differentiated between instances of adding new marks to the chart type and of re-encoding existing marks in order to encode additional information. In the figure above we **a)** summarize the types of chart enhancements documented in our research and show an example of enhancements to **b)** a phylogenetic tree and **c)** a node-link diagram.
+</div>
+ <div class = "col-md-6">
+<p><em><strong>Chart enhancements</strong></em> are changes to the base chart types to encode additional information. We differentiated between instances of adding new marks to the chart type and of re-encoding existing marks in order to encode additional information. In the figure above we <strong>a)</strong> summarize the types of chart enhancements documented in our research and show an example of enhancements to <strong>b)</strong> a phylogenetic tree and <strong>c)</strong> a node-link diagram.</p>
+</div>
+</div>
 
-<p>
+<br><br>
+<div class="row">
+<div class = "col-md-6">
 <img src ="ChartCombo.png" width = "500px"> 
-*Chart combinations* can show different aspects of the data that are not directly captured in a single chart. In our research we found distinct patterns for how charts were combined to show additional information. There were five distinct types of chart combinations.
+</div>
+<div class = "col-md-6">
+<p><em><strong>Chart combinations</strong></em> can show different aspects of the data that are not directly captured in a single chart. In our research we found distinct patterns for how charts were combined to show additional information. There were five distinct types of chart combinations.</p>
+</div>
+</div>
 
 <hr>
 <h2 id="visContext" style="margin-left: 0;">Visualization Context</h2>
 Visualization context is derived from pathogen information derived from article titles and abstracts, the application of a priori concepts, and the existence of text in the figure captions. There are a total of 32 pathogens, 23 a priori concepts, and hundreds of terms within the figure captions. Within the sidebar menu, you can **click on the text box and start typing** to explore different options. 
+
+<div class="row">
+  <div class = "col-md-6">
+    <h3><em>Pathogens</em></h3>
+    <p><em>There are a  total of 33 pathogens (+ 1 cancer category) that are found within the GEViT gallery dataset:</em></p>
+<p>Acinetobact baumannii, Bacillus anthracis, Clostridium difficile, Dengue virus, Ebola virus, Enterococcus faecium, Enterovirus D68, Escherichia coli, Helicobacter pylori, Hepatitis B, Hepatitis C, Hepatitis E, Human herpesvirus, Human Immunodeficy Virus, Human Papillomavirus, Human rotavirus, Influenza Virus, Klebsiella pneumonia, Legionella pneumophila, Listeria monocytogenes, MERS coronavirus, Microbiota, Mycobacterium tuberculosis, Neisseria gonorrhoeae, Neisseria meningitidis, Pseudomona aeruginosa, Salmonella Enterica, Salmonella typhimurium, SARS Coronavirus, Staphylococcus aureus, Vibrio cholerae, Vibrio parahaemolyticus, Zika virus<p>
+  </div>
+<div class = "col-md-6">
+<h3><em>A priori concepts</em></h3>
+<p> Genomic concepts: drug resistance, genome, genotype, molecular biology, pathogen characterization, phylogeny, and population diversity</p>
+
+<p> Epidemiology concepts: clusters, disease reservoirs, geography, outbreaks (at international, community, and hospital levels), surveillance, transmission, vaccine, and vectors<p>
+
+<p> Medical concepts: clinical, cancer, diagnosis, outcome, and treatment</p> 
+</div>
+
+</div>
 
 <hr>
 <h2 id="galStructure" style="margin-left: 0;">Structure and Filtering</h2>
