@@ -154,7 +154,7 @@ shinyServer(function(input, output,session) {
     if(!is.null(values$code)){
       tags$img(src = paste0('https://s3.ca-central-1.amazonaws.com/gevit-proj/images/',values$code))  
     }else{
-      tags$img(src = 'www/please-select-figure.png') 
+      return(HTML("<strong style='color:red;'>Please select a figure from the gallery</strong>")) 
     }
     
   })
