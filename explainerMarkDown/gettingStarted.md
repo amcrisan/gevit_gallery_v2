@@ -1,10 +1,12 @@
 # Welcome to the GEViT Gallery
-* [Overview](#overview) | [Visualization Design](#visDesign) | [Visualization Context](#visContext) | [Structure and Filtering](#galStructure) | [Disclaimer](#disclaimer) | [Cite](#citation)
+[Overview](#overview) | [Visualization Design](#visDesign) | [Visualization Context](#visContext) | [Structure and Filtering](#galStructure) | [Disclaimer](#disclaimer) | [Cite](#citation)
 
 <hr>
 <h2 id="overview">Overview</h2>
 
 This gallery for GEViT, a <b>G</b>enomic <b>E</b>pidemiology <b>Vi</b>sualization <b>T</b>ypology, provides a way to browse the research findings presented in Crisan *et. al.* (2018) ['A method for systematically surveying data visualizations in infectious disease genomic epidemiology'](https://www.biorxiv.org/content/early/2018/05/22/325290). We constructed a visualization design space that characterized common data visualization practices within infectious disease genomic epidemiology that supports exploration through two axes: visualization context (pathogens and a priori concepts) and visualization design (chart types, chart enhancements, and chart combinations).
+
+<strong>To get started, click on the catalogue tab and use the sidebar to filter visualizations</strong>
 
 <hr>
 <h2 id="visDesign" style="margin-left: 0;">Visualization Design</h2>
@@ -17,7 +19,7 @@ Visualization designs detail how a data visualization was constructed; they cons
   </div>
 
   <div class = "col-md-6">
-  <p><em><strong>Chart types</strong></em> are the basic building block of data visualizations. Our analysis of the infectious disease genomic epidemiology literature revealed 50 unique chart types that we further characterized into seven categories. </p>
+  <p><em><strong>Chart types</strong></em> are the basic building block of data visualizations. Our analysis of the infectious disease genomic epidemiology literature revealed 25 unique chart types that we further characterized into eight categories. </p>
   </div>
 </div>
 
@@ -44,7 +46,7 @@ Visualization designs detail how a data visualization was constructed; they cons
 
 <hr>
 <h2 id="visContext" style="margin-left: 0;">Visualization Context</h2>
-Visualization context is derived from pathogen information derived from article titles and abstracts, the application of a priori concepts, and the existence of text in the figure captions. There are a total of 32 pathogens, 23 a priori concepts, and hundreds of terms within the figure captions. Within the sidebar menu, you can **click on the text box and start typing** to explore different options. 
+Visualization context is derived from pathogen information derived from article titles and abstracts, the application of a priori concepts, and the existence of text in the figure captions. There are a total of 33 pathogens, 23 a priori concepts, and hundreds of terms within the figure captions. Within the sidebar menu, you can **click on the text box and start typing** to explore different options. 
 
 <div class="row">
   <div class = "col-md-6">

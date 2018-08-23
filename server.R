@@ -151,7 +151,12 @@ shinyServer(function(input, output,session) {
   bordered=TRUE)
 
   output$figImage_only = renderUI({
-    tags$img(src = paste0('https://s3.ca-central-1.amazonaws.com/gevit-proj/images/',values$code))  
+    if(!is.null(values$code)){
+      tags$img(src = paste0('https://s3.ca-central-1.amazonaws.com/gevit-proj/images/',values$code))  
+    }else{
+      tags$img(src = 'www/please-select-figure.png') 
+    }
+    
   })
 
   #-----------------------------------------------
