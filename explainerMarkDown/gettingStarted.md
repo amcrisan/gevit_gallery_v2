@@ -88,8 +88,6 @@ The images in the GEViT gallery are presented solely for research purposes and u
 <h2 id="citation">Cite</h2>
 If you use this gallery in your research, please consider citing the original publication:
 
-A method for systematically surveying data visualizations in infectious disease genomic epidemiology
-Anamaria Crisan, Jennifer L. Gardy, Tamara Munzner
-bioRxiv 325290; doi: [https://doi.org/10.1101/325290](https://doi.org/10.1101/325290)
-
-*Please note, the publication is currently under review*
+A systematic method for surveying data visualizations and a resulting genomic epidemiology visualization typology: GEViT 
+Anamaria Crisan  Jennifer L Gardy  Tamara Munzner
+Bioinformatics, https://doi.org/10.1093/bioinformatics/bty832
