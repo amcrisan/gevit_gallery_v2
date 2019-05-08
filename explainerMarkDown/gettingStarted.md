@@ -4,7 +4,7 @@
 <hr>
 <h2 id="overview">Overview</h2>
 
-This gallery for GEViT, a <b>G</b>enomic <b>E</b>pidemiology <b>Vi</b>sualization <b>T</b>ypology, provides a way to browse the research findings presented in Crisan *et. al.* (2018) ['A method for systematically surveying data visualizations in infectious disease genomic epidemiology'](https://www.biorxiv.org/content/early/2018/05/22/325290). We constructed a visualization design space that characterized common data visualization practices within infectious disease genomic epidemiology that supports exploration through two axes: visualization context (pathogens and a priori concepts) and visualization design (chart types, chart enhancements, and chart combinations).
+This gallery for GEViT, a <b>G</b>enomic <b>E</b>pidemiology <b>Vi</b>sualization <b>T</b>ypology, provides a way to browse the research findings presented in Crisan *et. al.* (2018) ['A method for systematically surveying data visualizations in infectious disease genomic epidemiology'](https://doi.org/10.1101/325290). We constructed a visualization design space that characterized common data visualization practices within infectious disease genomic epidemiology that supports exploration through two axes: visualization context (pathogens and a priori concepts) and visualization design (chart types, chart enhancements, and chart combinations).
 
 <strong>To get started, click on the catalogue tab and use the sidebar to filter visualizations</strong>
 
@@ -88,6 +88,12 @@ The images in the GEViT gallery are presented solely for research purposes and u
 <h2 id="citation">Cite</h2>
 If you use this gallery in your research, please consider citing the original publication:
 
+```
 A systematic method for surveying data visualizations and a resulting genomic epidemiology visualization typology: GEViT 
 Anamaria Crisan  Jennifer L Gardy  Tamara Munzner
 Bioinformatics, https://doi.org/10.1093/bioinformatics/bty832
+```
+
+You can also find our analysis code online : https://github.com/amcrisan/GEViTAnalysisRelease
+
+as well as the code for this gallery : https://github.com/amcrisan/gevit_gallery_v2
